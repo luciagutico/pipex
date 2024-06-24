@@ -25,10 +25,6 @@ The program takes four arguments:
 The program executes cmd1 with file1 as input, passes its output to cmd2, and writes the final output to file2.
 Examples
 
-    Example command:
-
-    sh
-
 $> ./pipex infile "ls -l" "wc -l" outfile
 
 Should behave like:
